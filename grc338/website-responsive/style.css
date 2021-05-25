@@ -1,0 +1,108 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/ugc0jwn.css");
+
+.container{
+  max-width: 40em;
+  margin: auto;
+}
+
+figure {
+  margin: 0em 0em 0em 0em;
+}
+
+body {
+  background-color: #fafafa;
+  margin: 0em;
+}
+
+img {
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 1em;
+  font-family: quasimoda, sans-serif;
+  font-weight: 500;
+  font-size: 1.35em;
+  font-style: normal;
+}
+
+nav, ul, li {
+  margin-top: 0em;
+}
+
+nav ul li a {
+  color: #222222;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #0061AE;
+}
+
+h1 {
+  font-family: quasimoda, sans-serif;
+  font-weight: 550;
+  font-size: 1.75em;
+  width: 12em;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  color: #222222;
+}
+
+h2 {
+  font-family: quasimoda, sans-serif;
+  font-weight: 450;
+  font-size: 1.5em;
+  margin: 0.75em 1em 0.2em 0em;
+  color: #222222;
+}
+
+h3 {
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  margin: 0.75em 0em 0.15em 0em;
+  color: #222222;
+}
+
+p {
+  font-family: quasimoda, sans-serif;
+  font-weight: 375;
+  margin: 0em 1em 0.4em 0em;
+  color: #222222;
+}
+
+nav, h2, h3, p, h1 {
+  margin-left: 1.3rem;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  margin: 1.25em 0em 1.25em 0em;
+  font-style: italic;
+}
+
+@media screen and (min-width: 55em) {
+
+  nav, h2, h3, p, h1 {
+    margin-left: 0rem;
+  }
+
+  footer {
+    margin-bottom: 1.5em;
+  }
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
