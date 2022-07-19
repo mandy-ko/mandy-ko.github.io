@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Threads & Needles</title> <!-- ★ Please include a proper title.-->
+
+    <!-- Helpful meta tags to fight GitHub aggresive caching-->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+</head>
+
+<body>
+    <div class="newsletter">
+            <header>
+                <h1><a href="index.html"> <img src="logo.png" alt="Logo of Threads & Needles."></a> </h1>
+                <!-- ★ Please use a proper alt attribute.-->
+
+                <nav>
+                    <ul>
+                        <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                        <li><a href="#">Tools</a></li>
+                        <li><a href="#">Techniques</a></li>
+                        <li><a href="#">Patterns</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href=newsletter.html>Subscribe</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <form>
+                    <section class="personal-info">
+                        <h2>Personal information</h2>
+                        <ul>
+                            <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
+                            <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>
+                            <li><label for="phone">Phone:</label> <input type="tel" name="phone" id="phone" placeholder="your phone number" /></li>
+                        </ul>
+                    </section>
+
+                    <section class="subscriptions">
+                    <h3>Which sections do you want to subscribe to?</h3>
+                    <p>Choose as many as you want!</p>
+                    <ul>
+                        <li><input type="checkbox" id="tools" value="tools" /> <label for="tools">Tools</label></li>
+                        <li><input type="checkbox" id="techniques" value="techniques" /> <label for="techniques">Techniques</label></li>
+                        <li><input type="checkbox" id="patterns" value="patterns" /> <label for="patterns">Patterns</label></li>
+                        <li><input type="checkbox" id="tutorials" value="tutorials" /> <label for="tutorials">Tutorials</label></li>
+                    </ul>
+                </section>
+
+                <section class ="button">
+                    <button type="subscribe">Subscribe</button>
+                </section>
+            </main>
+
+        <footer>
+            <p> All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
